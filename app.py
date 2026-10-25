@@ -3,7 +3,7 @@ import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import StateGraph, START, END
 
-st.set_page_config(page_title="Q2: Insurance Claim Processing Agent", layout="wide")
+st.set_page_config(page_title="Insurance Claim Processing Agent", layout="wide")
 st.title("🛡️ Insurance Claim Processing Agent (LangGraph)")
 
 # ---------------------------------------------------------
